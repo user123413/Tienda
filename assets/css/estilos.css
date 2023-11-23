@@ -1,0 +1,134 @@
+
+.panel-title{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+#main{
+        margin-top: 100px;
+}
+
+.u-size-100{
+	width: 100px;
+	text-align: center;
+}
+
+.main-form{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.panel-info>.panel-heading{
+	color: #ffffff;
+    background-color: #e95420;
+}
+.main-login{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.footer{
+	margin-top: 100px;
+  
+}
+
+.form_registrar{
+	background-color: #91e3ef6e;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 7px 13px 37px rgba(101, 121, 121, 0.705);
+}
+.form_registrar h1{
+	font-size: 35px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.navbar-default{
+	background-image: linear-gradient(120deg, #01c785 0%, #bdceca 100%);
+}
+
+.titulo-pelicula{
+	font-size: 15px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+
+.content{
+	position: relative;
+	text-align: right;
+	width: 120rem;
+	height: 26rem;
+	color: #000000;
+}
+.content h3{
+	color: var(rgb(3, 3, 3));
+	font-size: 4rem;
+	padding: 1rem ;
+}
+.content h3 span{
+	color: orange;
+	font-size: 4rem;
+}
+.content p{
+	color: black;
+	font-size: 2rem;
+	padding: 1rem ;
+	line-height: 1.8;
+}
+.home{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(../imagenes/ind.jpeg);
+	background-position: center;
+	background-size: cover;
+	padding-top: 17rem;
+	padding-bottom: 10rem;
+}
+.heading{
+	text-align: center;
+	padding:  2rem 0;
+	padding-bottom: 3rem;
+	font-size: 3.5rem;
+	color: var(black);
+}
+.heading span{
+	color: orange;
+	display: inline-block;
+
+}
+@media (max-width: 788px){
+	.content h3{
+		font-size: 24px;
+		font-weight: bold;
+		transition: .5s;
+	}
+	.content h3 span{
+		font-size: 24px;
+		font-weight: bold;
+		transition: .5s;
+	}
+	.content p{
+		font-size: 13px;
+		font-weight: bold;
+		padding-left: 150px;
+	}
+	.heading{
+		font-size: 24px;
+		font-weight: bold;
+		transition: .5s;
+	}
+	.heading h3 span{
+		font-size: 24px;
+		font-weight: bold;
+		transition: .5s;
+	}
+}
